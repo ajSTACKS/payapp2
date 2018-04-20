@@ -1,0 +1,41 @@
+
+.main-header {
+  /* background-color: red; */
+  min-height: 600px;
+  background-position: center;
+  color: black;
+}
+.main-header .showcase {
+  padding-top: 100px;
+}
+.active-link{
+  color: #f57c00;
+  font-weight: bold;
+}
+nav .brand-logo{
+  color: black
+}
+nav a {
+  color: black;
+}
+nav ul a {
+  color: black;
+}
+h1 {
+  font-size: 42px;
+  line-height: 48px;
+  text-transform: none;
+  letter-spacing: -0.6px;
+  font-weight: 500;
+}
+p{
+  font-size: 19px;
+}
+
+.demo a {
+  padding: 20px 0 1px 0;
+  border-bottom: 1px solid;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}

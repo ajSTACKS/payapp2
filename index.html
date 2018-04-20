@@ -4,6 +4,9 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
@@ -14,17 +17,78 @@
 </head>
 
 <body>
-  <h1>Theme Starter</h1>
+  <section class="banner blue accent-2 white-text center">
+    <div class="container">
+      <span>Download our comprehensive guide on 'Mobile Payments-ready Cloud Software'</span>
+    </div>
+  </section>
+  <header class="main-header">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><i class="fab fa-mixcloud" style="font-size: 34px; margin-right: 1px"></i>
+            mobipay
+          </a>
+          <a href="#" data-activities="mobile-nav" class="button-collapse">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html" class="active-link">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="index.html">Pricing</a></li>
+            <li><a href="index.html">Sign Up</a></li>
+            <li>
+              <a href="#login" class="btn orange accent-4">Login</a>
+            </li>
+          </ul>
+          <!-- mobile nav bar -->
+          <ul class="side-nav" id="mobile-nav">
+            <h4 class="orange-text text-accent-4 center">mobipay</h4>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="index.html"><i class="fab fa-home grey-text text-darken-2"></i>Home</a></li>
+            <li>
+              <a href="index.html">Products</a></li>
+            <li>
+              <a href="index.html">Pricing</a></li>
+            <li>
+              <a href="index.html">Sign Up</a></li>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="#" class="btn orange accent-4">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h1>Scale Painlessly with
+            <br>
+            Smart Payment Solutions
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut error, suscipit, sequi necessitatibus sapiente autem?</p>
+          <br><br>
+          <a href="#" class="btn btn-large waves-effect waves-orange white orange-text text-accent-4">Sign up for free</a>
+          <br><br>
+          <div class="demo">
+            <a href="#">Schedule a Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Custom JS & jQuery here
-      
-    });
-  </script>
+  <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
