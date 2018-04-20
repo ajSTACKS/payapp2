@@ -5,6 +5,8 @@
   background-position: center;
   color: black;
 }
+.main-header .orange.accent-4 {
+}
 .main-header .showcase {
   padding-top: 100px;
 }
@@ -38,4 +40,54 @@ p{
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
+}
+.section-payments{
+  background: url(../img/paycomp.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 60px;
+
+}
+.section-iceberg{
+  background: url(../img/iceberg.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  position: relative;
+}
+.section-iceberg .iceberg-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-iceberg .iceberg-growth{
+  position: relative;
+  max-width: 420px;
+  padding-top: 290px;
+  padding-bottom: 0;
+  line-height: 28px;
+  margin-left: auto;
+}
+.section-stripe{
+  padding: 40px 60px;
+  position: relative;
+}
+.section-stripe .stripe-logo {
+  display: inline-block;
+  margin-right: 60px;
+  margin-left: 40px;
+
+}
+.section-stripe .stripe-box{
+  font-size: 17px;
+  display: inline-block;
+  max-width: 550px;
+  margin-left: 20px;
+  line-height: 28px;
+
+}
+.section-stripe .stripe-do-text {
+  font-size: 13px;
+
 }
